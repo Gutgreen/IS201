@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: grey
+   } 
+
+ol {
+    padding: 15px;
+    margin: 0;
+    color: rgb(219, 175, 79);
+}
+
+ul {
+    padding: 15px;
+    margin: 0;
+    color: rgb(219, 175, 79);
+}
+
+   li {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(219, 175, 79);
+   }
+   a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+   }
+a:hover {
+    text-decoration: underline;
+    color: blue
+}
+
+/*a:visited {
+    color: blue;
+}*/
+
+   h1 {
+    color: black;
+   }
+   h2,h4 {
+    color: white;
+   }
+   p {
+    color: white;
+   }
+
+/*SO BASICALLY, THESE ARE MY STYLE SELECTORS*/
+   .empty-space {
+    margin-bottom: 500px;
+   }
+
+   .orange {
+    color: rgb(219, 175, 79);
+   }
+
+   .resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+   }
+
+   .underline {text-decoration: underline;}
+   .bold {font-weight: bolder; color: black;}
+   .justify {text-align: justify;}
+
+   .homebg {
+    background-image: url('../assets/Guitar.jpg');
+    background-position: top right;
+    background-size: cover;
+}
+
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: burlywood;
+}
+/*REMEMBER, you can combine all these attributes
+into one thing like this-
+border 1px solid burlywood; */
+
+.box2 {
+    padding: 5px;
+}
+
+.box3 {
+    margin: 50px;
+}
